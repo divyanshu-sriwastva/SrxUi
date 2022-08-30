@@ -1,0 +1,390 @@
+/* 
+SRX UI - MIUI PREMIUM THEMES
+Copyright (C) 2022-2023 Srx Ui Team
+This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi-Themes/ >
+*/
+
+/* Importing some fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* Starting codes */
+:root {
+    --main-color: #7762ef;
+    --temp-color: #000;
+    --btn-color: #ff3131;
+}
+
+p::selection {
+    background-color: var(--btn-color);
+}
+
+::selection {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar {
+    margin-right: 20px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 8px;
+    border: 3px solid #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* CSS for Header */
+
+.menu-right {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pad {
+    padding: 4rem 8rem;
+}
+
+.nav-li {
+    display: inline;
+}
+
+.nav-a-link {
+    color: var(--temp-color);
+    font-size: 2.4rem;
+    margin-left: 2.8rem;
+    position: relative;
+    text-decoration: none;
+}
+
+.fa-house {
+    font-size: 3rem;
+    color: var(--temp-color);
+}
+
+.burger {
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-a-link:focus::before {
+    width: 75%;
+    content: "";
+    height: 0.2rem;
+    border-radius: 50rem;
+    background-color: #a67eff;
+    position: absolute;
+    bottom: -5px;
+}
+
+/* CSS for Main */
+
+.themes-select-li {
+    display: none;
+    margin: 3.3rem 0;
+    margin-bottom: 2.5rem;
+}
+
+.themes-select {
+    display: inline;
+    margin-bottom: 3rem;
+}
+
+.themes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categ-themes {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem 2.5rem;
+    background: var(--main-color);
+    border-radius: 50px;
+    padding-bottom: 1.3rem;
+}
+
+.categ-themes-display {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.2rem 2.2rem;
+    font-size: 1.7rem;
+    background: var(--main-color);
+    border-radius: 50px;
+}
+
+.paid-themes-btn {
+    background-color: var(--btn-color);
+}
+
+.paid-themes-btn-display {
+    background-color: var(--btn-color);
+    margin-right: 2rem;
+}
+
+/* For Theme preview on main page */
+
+.preview {
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 11px -3px gray;
+    position: relative;
+    margin: 3rem 4rem;
+}
+
+.select-categ {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.theme-name {
+    color: #fff;
+    font-size: 2.5rem;
+    margin: .8rem 0;
+}
+
+.description-themes {
+    position: absolute;
+    bottom: 5px;
+    font-family: 'Varela Round', sans-serif;
+    left: 10px;
+}
+
+.type {
+    padding: 0rem 1rem;
+    background: #ca0505;
+    display: inline;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+.fa-clock {
+    font-size: 2.1rem;
+    color: #fff;
+}
+
+.date {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    color: #fff;
+}
+
+.date-time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* For Theme description page */
+
+.swiper {
+    width: 70rem;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.theme-image {
+    width: 70rem;
+}
+
+.swiper-single {
+    width: 40rem;
+}
+
+.theme {
+    padding: 0rem 8rem;
+    padding-bottom: 5rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.theme-short-des {
+    color: var(--temp-color);
+    word-spacing: 5px;
+    font-size: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 4rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.btn-main-page {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.btn-explore:focus {
+    background-color: #5335ff;
+    color: #fff;
+}
+
+.btn-youtube:focus {
+    background-color: var(--btn-color);
+    color: rgb(255, 255, 255);
+}
+
+.btn-explore {
+    font-size: 2.1rem;
+    text-decoration: none;
+    color: #5335ff;
+    padding: 0.7rem 3.3rem;
+    border: 2px solid #5335ff;
+    border-radius: 80px;
+    transition: .2s;
+}
+
+.btn-youtube {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: var(--btn-color);
+    padding: 0.7rem 3.3rem;
+    border: 2px solid var(--btn-color);
+    border-radius: 80px;
+    transition: .2s;
+    font-size: 2.1rem;
+}
+
+h1 {
+    margin: 3rem 0;
+    font-size: 4rem;
+    color: var(--main-color);
+    font-family: 'DynaPuff', cursive;
+}
+
+.about-des {
+    line-height: 4.6rem;
+    font-size: 2.5rem;
+    color: var(--main-color);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.red-color {
+    font-size: 3rem;
+    margin-left: 3rem;
+    font-weight: 100;
+    line-height: 4.6rem;
+    font-family: 'Itim', cursive;
+    color: var(--temp-color);
+}
+
+.theme-name-differ {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    color: #5335ff;
+}
+
+.theme-name-differ-2 {
+    margin-top: 2.5rem;
+}
+
+.theme-specs {
+    flex-direction: row;
+    margin: 3rem 0 1.5rem 0;
+}
+
+/* Footer section */
+
+footer {
+    background-color: #1c2431;
+    padding: 5rem 7rem;
+    display: flex;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h3 {
+    font-size: 4.2rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    color: #f3f3f3;
+    position: relative;
+}
+
+.white-color-foot {
+    color: #fff;
+}
+
+h3::after {
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 0.2rem;
+    bottom: -0.5rem;
+    background-color: var(--main-color);
+    content: "";
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.foot-icon {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    padding: 1.1rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.foot-icon-no-padding {
+    margin-left: 0;
+}
+
+.credit {
+    font-size: 2rem;
+    color: #c6c6c6;
+    text-align: center;
+    line-height: 3rem;
+    word-spacing: 3px;
+}
+
+.foot-links {
+    color: #62efb4;
+    text-decoration: none;
+}
+
+.black {
+    color: var(--temp-color);
+}
+
+.no-word-space {
+    word-spacing: 0;
+}

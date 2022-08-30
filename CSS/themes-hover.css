@@ -1,0 +1,73 @@
+.theme-pic {
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10));
+    width: 34rem;
+    height: 44rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fussion-os {
+    background-image: url('../Themes/Themes-screenshots/Fussion-os/lockscreen.png');
+}
+
+#retro-ui {
+    background-image: url('../Themes/Themes-screenshots/Retro-ui/lockscreen.png');
+}
+
+#meego {
+    background-image: url('../Themes/Themes-screenshots/Meego/lockscreen.png');
+}
+
+#loki {
+    background-image: url('../Themes/Themes-screenshots/Loki/lockscreen.jpg');
+}
+
+#mi-green {
+    background-image: url('../Themes/Themes-screenshots/Mi-Green/lockscreen.jpg');
+}
+
+#misiri {
+    background-image: url('../Themes/Themes-screenshots/Misiri/lockscreen.jpg');
+}
+#shreya-rose {
+    background-image: url('../Themes/Themes-screenshots/Shreya-rose/lockscreen.jpg');
+}
+
+@media only screen and (min-width: 820px) {
+    #fussion-os:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Fussion-os/lockscreen.png');
+    }
+
+    #retro-ui:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Retro-ui/lockscreen.png');
+    }
+
+    #meego:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Meego/lockscreen.png');
+    }
+
+    #loki:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Loki/lockscreen.jpg');
+    }
+
+    #mi-green:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Mi-Green/lockscreen.jpg');
+    }
+
+    #misiri:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Misiri/lockscreen.jpg');
+    }
+    #shreya-rose:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Shreya-rose/lockscreen.jpg');
+    }
+
+    .categ-themes-display:hover {
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .categ-themes-display:focus {
+        opacity: 0.8;
+    }
+}

@@ -1,0 +1,207 @@
+/* 
+SRX UI - MIUI PREMIUM THEMES
+Copyright (C) 2022-2023 Srx Ui Team
+This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi-Themes/ > 
+*/
+
+/* For Hover effects */
+
+@media only screen and (min-width: 820px) {
+    .nav-a-link:hover::before {
+        width: 75%;
+        content: "";
+        height: 0.2rem;
+        border-radius: 50rem;
+        background-color: #a67eff;
+        position: absolute;
+        bottom: -5px;
+    }
+
+    .btn-explore:hover {
+        background-color: #5335ff;
+        color: #fff;
+    }
+
+    .btn-themes:hover {
+        background-color: var(--temp-color);
+        color: rgb(255, 255, 255);
+    }
+
+    .btn-youtube:hover {
+        background-color: #ff3131;
+        color: #fff;
+    }
+}
+
+/* Responsive codes for Tablets */
+
+@media only screen and (max-width: 1150px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width: 892px) {
+    html {
+        font-size: 49%;
+    }
+
+    .description {
+        padding-right: 5rem;
+    }
+}
+
+/* Responsive codes for mobile phone */
+
+@media only screen and (max-width: 738px) {
+    .swiper {
+        width: 60rem;
+    }
+
+    .theme-image {
+        width: 60rem;
+    }
+
+    .theme-short-des {
+        padding: 0;
+    }
+
+    .theme {
+        padding: 0 4rem;
+    }
+
+    .menu-right {
+        justify-content: center;
+    }
+
+    .select-categ {
+        display: none;
+    }
+
+    .nav-li {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .themes-select-li {
+        display: block;
+    }
+
+    .categ-themes {
+        font-size: 2rem;
+    }
+
+    .burger {
+        display: block;
+        position: absolute;
+        z-index: 50;
+        top: 20px;
+        right: 20px;
+    }
+
+    .fa-house {
+        display: block;
+        position: absolute;
+        z-index: 50;
+        top: 20px;
+        left: 40px;
+    }
+
+    #menu {
+        display: none;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-a-link {
+        margin-left: 0;
+        font-size: 4rem;
+    }
+
+    .home-section {
+        flex-direction: column;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    .container-1 {
+        text-align: center;
+    }
+
+    .des-2,
+    .des-1,
+    .description,
+    .des-3 {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .btn-main-page {
+        justify-content: center;
+    }
+
+    .home-section {
+        padding: 2rem 8rem;
+    }
+
+    .main-logo-display-main,
+    .main-logo-display-main-3 {
+        display: none;
+    }
+
+    .main-logo-display-main-2,
+    .main-logo-display-main-3,
+    .main-logo-display-main-res {
+        margin: 5rem 0;
+    }
+
+    .main-logo-display-main-res,
+    .main-logo-display-main-2 {
+        display: inline-block;
+        width: 35rem;
+    }
+
+    .btn-explore {
+        background-color: #5335ff;
+        color: #fff;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-section {
+        padding: 2rem 5rem;
+    }
+
+    .swiper {
+        width: 38rem;
+        margin-top: 2rem;
+    }
+
+    .theme-image {
+        width: 38rem;
+    }
+
+    .about-des {
+        line-height: 4rem;
+        font-size: 2.5rem;
+    }
+
+    .red-color {
+        line-height: 4rem;
+        font-size: 2.35rem;
+    }
+
+    .theme-name-differ {
+        font-size: 3rem;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+}

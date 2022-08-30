@@ -1,0 +1,280 @@
+/* 
+SRX UI - MIUI PREMIUM THEMES
+Copyright (C) 2022-2023 Srx Ui Team
+This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi-Themes/ >
+*/
+
+/* Importing some fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+/* Starting codes */
+
+:root {
+    --main-color: #7762ef;
+    --temp-color: #000;
+    --btn-color: #ff3131;
+}
+
+::selection {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar {
+    margin-right: 20px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 8px;
+    border: 3px solid #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* CSS for Header */
+
+.menu-right {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pad{
+    padding: 4rem 8rem;
+}
+.nav-li {
+    display: inline;
+}
+
+.nav-a-link {
+    color: var(--temp-color);
+    font-size: 2.4rem;
+    margin-left: 2.8rem;
+    position: relative;
+    text-decoration: none;
+}
+
+.fa-house {
+    font-size: 3rem;
+    color: var(--temp-color);
+}
+
+.burger {
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-a-link:focus::before {
+    width: 75%;
+    content: "";
+    height: 0.2rem;
+    border-radius: 50rem;
+    background-color: #a67eff;
+    position: absolute;
+    bottom: -5px;
+}
+
+/* CSS for main */
+
+.btn-main-page {
+    display: flex;
+}
+
+h1,
+h2 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 4rem;
+    color: var(--main-color);
+    line-height: 6rem;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    line-height: 3rem;
+    font-size: 3.5rem;
+}
+
+
+.main-logo-display-main {
+    width: 45rem;
+}
+
+.main-logo-display-main-2 {
+    width: 38rem;
+}
+
+.main-logo-display-main-3 {
+    width: 38rem;
+}
+
+.home-section {
+    align-items: center;
+    display: flex;
+    padding: 4.5rem 8rem;
+}
+
+.description {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    word-spacing: 0.5rem;
+    line-height: 3.8rem;
+}
+
+.btn-explore:focus {
+    background-color: #5335ff;
+    color: #fff;
+}
+
+.btn-themes:focus {
+    background-color: var(--temp-color);
+    color: rgb(255, 255, 255);
+}
+
+main {
+    padding-bottom: 5rem;
+}
+
+.des-1 {
+    padding-right: 10rem;
+}
+
+.des-2 {
+    padding-left: 15rem;
+}
+
+.des-3 {
+    padding-right: 16rem;
+}
+
+.btn-explore {
+    font-size: 2.1rem;
+    text-decoration: none;
+    color: #5335ff;
+    padding: 0.7rem 3.3rem;
+    border: 2px solid #5335ff;
+    border-radius: 80px;
+    transition: .2s;
+}
+
+.btn-themes {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: var(--temp-color);
+    padding: 0.7rem 3.3rem;
+    border: 2px solid var(--temp-color);
+    border-radius: 80px;
+    transition: .2s;
+    font-size: 2.1rem;
+}
+
+.btn-youtube {
+    color: #ff3131;
+    border-color: #ff3131;
+}
+
+.btn-youtube:focus {
+    background-color: #ff3131;
+    color: #fff;
+}
+
+.main-logo-display-main-res {
+    display: none;
+}
+
+/* Starting our Footer section */
+
+footer {
+    background-color: #1c2431;
+    padding: 5rem 7rem;
+    display: flex;
+    padding-bottom: 2rem;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h3 {
+    font-size: 4.2rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    color: #f3f3f3;
+    position: relative;
+}
+
+.white-color-foot {
+    color: #fff;
+}
+
+h3::after {
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 0.2rem;
+    bottom: -0.5rem;
+    background-color: var(--main-color);
+    content: "";
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.foot-icon {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    padding: 1.1rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.foot-icon-no-padding {
+    margin-left: 0;
+}
+
+.credit {
+    font-size: 2rem;
+    color: #c6c6c6;
+    text-align: center;
+    line-height: 3rem;
+    word-spacing: 3px;
+}
+
+.foot-links {
+    color: #62efb4;
+    text-decoration: none;
+}
+
+.black {
+    color: var(--temp-color);
+}
+
+.no-word-space {
+    word-spacing: 0;
+}
