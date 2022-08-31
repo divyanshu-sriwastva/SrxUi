@@ -1,3 +1,9 @@
+/* 
+SRX UI - MIUI PREMIUM THEMES
+Copyright (C) 2022-2023 Srx Ui Team
+This file is a part of < https://github.com/divyanshu-sriwastva/srx-ui-themes-site.github.io >
+*/
+
 .theme-pic {
     background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10));
     width: 34rem;
@@ -29,8 +35,21 @@
 #misiri {
     background-image: url('../Themes/Themes-screenshots/Misiri/lockscreen.jpg');
 }
+
 #shreya-rose {
     background-image: url('../Themes/Themes-screenshots/Shreya-rose/lockscreen.jpg');
+}
+
+#shreya-red {
+    background-image: url('../Themes/Themes-screenshots/Shreya-red/lockscreen.jpg');
+}
+
+#miui-sr {
+    background-image: url('../Themes/Themes-screenshots/Miui-sr/lockscreen.jpg');
+}
+
+#blur-ui {
+    background-image: url('../Themes/Themes-screenshots/Blur-ui/lockscreen.jpg');
 }
 
 @media only screen and (min-width: 820px) {
@@ -57,8 +76,21 @@
     #misiri:hover {
         background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Misiri/lockscreen.jpg');
     }
+
     #shreya-rose:hover {
         background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Shreya-rose/lockscreen.jpg');
+    }
+
+    #shreya-red:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Shreya-red/lockscreen.jpg');
+    }
+
+    #miui-sr:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Miui-sr/lockscreen.jpg');
+    }
+
+    #blur-ui:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Blur-ui/lockscreen.jpg');
     }
 
     .categ-themes-display:hover {

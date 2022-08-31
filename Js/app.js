@@ -1,3 +1,9 @@
+/*
+SRX UI - MIUI PREMIUM THEMES
+Copyright (C) 2022-2023 Srx Ui Team
+This file is a part of < https://github.com/divyanshu-sriwastva/srx-ui-themes-site.github.io > 
+*/
+
 const myFunction = () => {
   if (menu.style.display == "flex") {
     menu.style.display = "none";
