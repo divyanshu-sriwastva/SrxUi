@@ -1,7 +1,7 @@
 /* 
 SRX UI - MIUI PREMIUM THEMES
 Copyright (C) 2022-2023 Srx Ui Team
-This file is a part of < https://github.com/divyanshu-sriwastva/srx-ui-themes-site.github.io >
+This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io >
 */
 
 /* Importing some fonts */
@@ -15,6 +15,7 @@ This file is a part of < https://github.com/divyanshu-sriwastva/srx-ui-themes-si
 :root {
     --main-color: #7762ef;
     --temp-color: #000;
+    --main-font: 'Josefin Sans', sans-serif;
     --btn-color: #ff3131;
 }
 
@@ -56,7 +57,7 @@ body {
 /* CSS for Header */
 
 .menu-right {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--main-font);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -213,6 +214,15 @@ body {
     width: 70rem;
 }
 
+.disabled {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.7rem 3.3rem;
+    border-radius: 80px;
+    font-size: 2.1rem;
+    background: var(--btn-color);
+}
+
 .swiper-single {
     width: 40rem;
 }
@@ -233,7 +243,7 @@ body {
     color: var(--temp-color);
     word-spacing: 5px;
     font-size: 2.5rem;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--main-font);
     line-height: 4rem;
     text-transform: capitalize;
     text-align: center;
@@ -311,6 +321,50 @@ h1 {
 .theme-specs {
     flex-direction: row;
     margin: 3rem 0 1.5rem 0;
+}
+
+/* For about page section */
+
+#article {
+    padding: 0 13.85rem;
+    text-align: center;
+}
+
+#vip-img {
+    border-radius: 12px;
+    width: 50rem;
+    margin-top: 2rem;
+}
+
+.about-p-des {
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+    word-spacing: 0.2rem;
+    font-family: 'Varela Round', sans-serif;
+    color: var(--temp-color);
+}
+
+.h2-about {
+    font-size: 3rem;
+    color: var(--btn-color);
+    font-family: var(--main-font);
+}
+
+.h4-about {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+    font-family: 'Itim', cursive;
+}
+
+#paid-ver {
+    margin-top: 3rem;
+}
+
+.access-vip {
+    font-size: 3rem;
+    font-family: 'Itim', cursive;
+    color: var(--btn-color);
 }
 
 /* Footer section */

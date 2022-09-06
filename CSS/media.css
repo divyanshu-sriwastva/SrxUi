@@ -1,7 +1,7 @@
 /* 
 SRX UI - MIUI PREMIUM THEMES
 Copyright (C) 2022-2023 Srx Ui Team
-This file is a part of < https://github.com/divyanshu-sriwastva/srx-ui-themes-site.github.io > 
+This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io > 
 */
 
 /* For Hover effects */
@@ -173,6 +173,20 @@ This file is a part of < https://github.com/divyanshu-sriwastva/srx-ui-themes-si
 }
 
 @media (max-width: 500px) {
+    #vip-img {
+        width: 35rem;
+    }
+
+    #article {
+        padding: 0 4rem;
+    }
+
+    .about-p-des {
+        font-size: 2.2rem;
+        word-spacing: 0.15rem;
+        line-height: 2.8rem;
+    }
+
     .home-section {
         padding: 2rem 5rem;
     }
