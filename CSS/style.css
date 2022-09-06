@@ -4,16 +4,13 @@ Copyright (C) 2022-2023 Srx Ui Team
 This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io >
 */
 
-/* Importing some fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
-
 /* Starting codes */
 
 :root {
     --main-color: #7762ef;
     --temp-color: #000;
     --btn-color: #ff3131;
+    --main-font: 'Josefin Sans', sans-serif;
 }
 
 ::selection {
@@ -50,14 +47,16 @@ body {
 /* CSS for Header */
 
 .menu-right {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--main-font);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#pad{
+
+#pad {
     padding: 4rem 8rem;
 }
+
 .nav-li {
     display: inline;
 }
@@ -100,12 +99,10 @@ body {
 
 h1,
 h2 {
-    font-family: 'DynaPuff', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4rem;
     color: var(--main-color);
     line-height: 6rem;
-    word-spacing: 0.5rem;
-    letter-spacing: 0.1rem;
     text-transform: uppercase;
 }
 
@@ -138,7 +135,7 @@ h2 {
     margin-top: 3rem;
     margin-bottom: 4rem;
     text-transform: capitalize;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--main-font);
     word-spacing: 0.5rem;
     line-height: 3.8rem;
 }
