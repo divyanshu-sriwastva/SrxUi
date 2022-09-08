@@ -99,7 +99,8 @@ body {
 
 h1,
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'DynaPuff', cursive;
     font-size: 4rem;
     color: var(--main-color);
     line-height: 6rem;
