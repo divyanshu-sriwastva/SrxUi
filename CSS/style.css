@@ -6,6 +6,9 @@ This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io 
 
 /* Starting codes */
 
+/* Importing some fonts */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
 :root {
     --main-color: #7762ef;
     --temp-color: #000;
