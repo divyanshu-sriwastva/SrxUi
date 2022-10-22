@@ -13,84 +13,84 @@ This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io 
 }
 
 #fussion-os {
-    background-image: url('../Themes/Themes-screenshots/Fussion-os/lockscreen.png');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Fussion-os/lockscreen.png');
 }
 
 #retro-ui {
-    background-image: url('../Themes/Themes-screenshots/Retro-ui/lockscreen.png');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Retro-ui/lockscreen.png');
 }
 
 #meego {
-    background-image: url('../Themes/Themes-screenshots/Meego/lockscreen.png');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Meego/lockscreen.png');
 }
 
 #loki {
-    background-image: url('../Themes/Themes-screenshots/Loki/lockscreen.jpg');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Loki/lockscreen.jpg');
 }
 
 #mi-green {
-    background-image: url('../Themes/Themes-screenshots/Mi-Green/lockscreen.jpg');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Mi-Green/lockscreen.jpg');
 }
 
 #misiri {
-    background-image: url('../Themes/Themes-screenshots/Misiri/lockscreen.jpg');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Misiri/lockscreen.jpg');
 }
 
 #shreya-rose {
-    background-image: url('../Themes/Themes-screenshots/Shreya-rose/lockscreen.jpg');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Shreya-rose/lockscreen.jpg');
 }
 
 #shreya-red {
-    background-image: url('../Themes/Themes-screenshots/Shreya-red/lockscreen.jpg');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Shreya-red/lockscreen.jpg');
 }
 
 #miui-sr {
-    background-image: url('../Themes/Themes-screenshots/Miui-sr/lockscreen.jpg');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Miui-sr/lockscreen.jpg');
 }
 
 #blur-ui {
-    background-image: url('../Themes/Themes-screenshots/Blur-ui/lockscreen.jpg');
+    background-image: url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Blur-ui/lockscreen.jpg');
 }
 
 @media only screen and (min-width: 820px) {
     #fussion-os:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Fussion-os/lockscreen.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Fussion-os/lockscreen.png');
     }
 
     #retro-ui:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Retro-ui/lockscreen.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Retro-ui/lockscreen.png');
     }
 
     #meego:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Meego/lockscreen.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Meego/lockscreen.png');
     }
 
     #loki:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Loki/lockscreen.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Loki/lockscreen.jpg');
     }
 
     #mi-green:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Mi-Green/lockscreen.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Mi-Green/lockscreen.jpg');
     }
 
     #misiri:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Misiri/lockscreen.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Misiri/lockscreen.jpg');
     }
 
     #shreya-rose:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Shreya-rose/lockscreen.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Shreya-rose/lockscreen.jpg');
     }
 
     #shreya-red:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Shreya-red/lockscreen.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Shreya-red/lockscreen.jpg');
     }
 
     #miui-sr:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Miui-sr/lockscreen.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Miui-sr/lockscreen.jpg');
     }
 
     #blur-ui:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../Themes/Themes-screenshots/Blur-ui/lockscreen.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://raw.githubusercontent.com/divyanshu-sriwastva/SrxUi-site-Images/master/Themes-screenshots/Blur-ui/lockscreen.jpg');
     }
 
     .categ-themes-display:hover {

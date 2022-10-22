@@ -43,8 +43,8 @@ html {
 }
 
 body {
-    background-color: #fff;
     font-family: 'Kanit', sans-serif;
+    background: #fff;
 }
 
 /* CSS for Header */
