@@ -49,9 +49,6 @@ body {
 }
 
 /* CSS for Header */
-header{
-    background-color: red;
-}
 
 .menu-right {
     font-family: var(--main-font);
