@@ -107,7 +107,7 @@ body {
 h1,
 h2 {
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-family: 'Poppins', cursive;
+    font-family: 'monospace', cursive;
     font-size: 3.8rem;
     color: var(--main-color);
     line-height: 6rem;
