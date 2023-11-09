@@ -106,8 +106,9 @@ body {
 
 h1,
 h2 {
-    font-family: 'Nunito', cursive;
+    font-family: 'Poppins', cursive;
     font-size: 4rem;
+    font-weight: 700;
     color: var(--main-color);
     line-height: 6rem;
     text-transform: uppercase;
