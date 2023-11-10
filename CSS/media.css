@@ -55,11 +55,11 @@ This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io 
 
 @media only screen and (max-width: 738px) {
     .swiper {
-        width: 60rem;
+        width: 70rem;
     }
 
     .theme-image {
-        width: 60rem;
+        width: 70rem;
     }
 
     .theme-short-des {
@@ -189,12 +189,12 @@ This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io 
     }
 
     .swiper {
-        width: 38rem;
+        width: 45rem;
         margin-top: 2rem;
     }
 
     .theme-image {
-        width: 38rem;
+        width: 45rem;
     }
 
     .about-des {
