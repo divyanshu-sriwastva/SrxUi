@@ -117,10 +117,10 @@ h2 {
 h1::after{
     background-color: #1a8fe3;
     position: absolute;
-    bottom: -5px;
-    width: 100%;
+    bottom: -8px;
+    width: 95%;
     content: "";
-    height: 4px;
+    height: 3px;
     border-radius: 10px;
     display: block;
 }
