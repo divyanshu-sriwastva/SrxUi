@@ -111,6 +111,8 @@ h2 {
     font-weight: 700;
     color: var(--main-color);
     line-height: 6rem;
+    background-color: #5435FD;
+    border-radius: 10px;
     text-align: center;
     position: relative;
     text-transform: uppercase;
