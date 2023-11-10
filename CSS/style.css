@@ -118,10 +118,11 @@ h1::after{
     background-color: #1a8fe3;
     position: absolute;
     bottom: -12px;
+    border-radius: 20px;
     width: 85%;
-    left: 20%;
+    left: 16%;
     content: "";
-    height: 2px;
+    height: 3px;
     display: block;
 }
 h2 {
