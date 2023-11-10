@@ -112,10 +112,6 @@ h2 {
     color: var(--main-color);
     line-height: 6rem;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-itmes: center;
-    flex-direction: row;
     text-transform: uppercase;
 }
 h1::after{
@@ -127,6 +123,7 @@ h1::after{
     content: "";
     height: 3px;
     display: block;
+    left: 8%;
 }
 h2 {
     line-height: 3rem;
