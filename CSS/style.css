@@ -111,6 +111,7 @@ h2 {
     font-weight: 700;
     color: var(--main-color);
     line-height: 6rem;
+    text-align: center;
     position: relative;
     text-transform: uppercase;
 }
