@@ -111,9 +111,18 @@ h2 {
     font-weight: 700;
     color: var(--main-color);
     line-height: 6rem;
+    position: relative;
     text-transform: uppercase;
 }
-
+h1::after,h2::after {
+    background-color: black;
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    content: "";
+    height: 2px;
+    display: block;
+}
 h2 {
     line-height: 3rem;
     font-size: 3.5rem;
