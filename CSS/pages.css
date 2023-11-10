@@ -300,10 +300,10 @@ h1 {
 h1::after {
     background-color: #5435FD;
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     width: 100%;
     content: "";
-    left: -2%;
+    left: -1%;
     height: 2px;
     display: block;
 }
