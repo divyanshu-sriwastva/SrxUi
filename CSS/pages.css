@@ -207,6 +207,7 @@ body {
 /* For Theme description page */
 
 .swiper {
+    box-shadow: 3px 3px 25px -11px #006eff5e;
     width: 80rem;
     cursor: pointer;
     border-radius: 12px;
