@@ -103,16 +103,16 @@ body {
 .btn-main-page {
     display: flex;
 }
-
-h1,
-h2 {
+h1{
+    border-radius: 15px;
+    background-color: rgba(0,35,255,0.06);
+}
+h1{
     font-family: 'Poppins', cursive;
     font-size: 4rem;
     font-weight: 700;
     color: var(--main-color);
     line-height: 6rem;
-    background-color: #5435FD;
-    border-radius: 10px;
     text-align: center;
     position: relative;
     text-transform: uppercase;
