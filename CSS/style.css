@@ -119,7 +119,7 @@ h1::after{
     position: absolute;
     bottom: -15px;
     width: 85%;
-    transform: translateX(-50%);
+    transform: translateX(50%);
     content: "";
     height: 3px;
     border-radius: 10px;
