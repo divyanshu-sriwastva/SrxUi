@@ -120,10 +120,8 @@ h1::after{
     bottom: -15px;
     width: 85%;
     content: "";
-    height: 3;
-    text-align: center;
-    border-radius: 10px;
-    top: 0;
+    height: 2px;
+    display: block;
 }
 h2 {
     line-height: 3rem;
