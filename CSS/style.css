@@ -115,12 +115,12 @@ h2 {
     text-transform: uppercase;
 }
 h1::after{
-    background-color: #1a8fe3;
+    background-color: (--temp-color);
     position: absolute;
-    bottom: -12px;
+    bottom: -10px;
     border-radius: 20px;
     width: 85%;
-    left: 16%;
+    left: 15%;
     content: "";
     height: 3px;
     display: block;
