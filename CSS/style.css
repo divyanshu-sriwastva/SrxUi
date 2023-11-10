@@ -115,12 +115,12 @@ h2 {
     text-transform: uppercase;
 }
 h1::after{
-    background-color: var(--btn-color);
+    background-color: #5435FD;
     position: absolute;
     bottom: -10px;
     border-radius: 20px;
     width: 85%;
-    left: 15%;
+    left: 14%;
     content: "";
     height: 3px;
     display: block;
