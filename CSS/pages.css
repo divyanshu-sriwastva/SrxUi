@@ -295,7 +295,7 @@ h1 {
     font-family: 'Poppins', cursive;
 }
 h1::after {
-    background-color: #1a8fe3;
+    background-color: black;
     position: absolute;
     bottom: -5px;
     width: 100%;
