@@ -170,6 +170,9 @@ This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io 
         background-color: #5335ff;
         color: #fff;
     }
+    #special-margin{
+        margin-top: -2rem;
+    }
 }
 
 @media (max-width: 500px) {
@@ -211,7 +214,5 @@ This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io 
     .swiper-button-prev,
     .swiper-button-next {
         display: none;
-    #special-margin{
-        margin-top: -2rem;
     }
 }
