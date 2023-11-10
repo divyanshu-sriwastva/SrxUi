@@ -119,11 +119,12 @@ h1::after{
     position: absolute;
     bottom: -15px;
     width: 85%;
-    transform: translateX(50%);
+    left: 50%;
     content: "";
-    height: 3px;
+    height: 3;
+    text-align: center;
     border-radius: 10px;
-    display: block;
+    top: 0;
 }
 h2 {
     line-height: 3rem;
