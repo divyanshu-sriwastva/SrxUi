@@ -291,9 +291,17 @@ h1 {
     margin: 3rem 0;
     font-size: 4rem;
     color: var(--main-color);
+    position: relative;
     font-family: 'Poppins', cursive;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-
+}
+h1::after {
+    background-color: #1a8fe3;
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    content: "";
+    height: 2px;
+    display: block;
 }
 
 .about-des {
