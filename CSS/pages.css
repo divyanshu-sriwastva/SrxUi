@@ -210,12 +210,12 @@ body {
     width: 80rem;
     cursor: pointer;
     border-radius: 12px;
-    box-shadow: 0 20px 20px rgb(26 143 227 / 32%);
+    box-shadow: 0 0px 20px black;
 }
 
 .theme-image {
     width: 80rem;
-    box-shadow: 0 20px 20px rgb(26 143 227 / 32%);
+    box-shadow: 0 0px 20px black;
 }
 
 .disabled {
