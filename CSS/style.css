@@ -117,7 +117,7 @@ h2 {
     text-transform: uppercase;
 }
 #heading-srx{
-    background: rgba(0,35,255,1.8);
+    background: rgba(0,35,255,0.2);
     padding: 1rem;
     border-radius: 15px;
 }
