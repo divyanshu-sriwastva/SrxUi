@@ -292,9 +292,19 @@ h1 {
     font-size: 4rem;
     background-color: rgba(0,35,255,0.06);
     color: var(--main-color);
+    position: relative;
     font-family: 'Poppins', cursive;
 }
-
+h1::after {
+    background-color: #5435FD;
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    content: "";
+    left: -0.8%;
+    height: 2px;
+    display: block;
+}
 .about-des {
     line-height: 4.6rem;
     font-size: 2.5rem;
