@@ -210,12 +210,12 @@ body {
     width: 80rem;
     cursor: pointer;
     border-radius: 12px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 3px 3px 25px -11px #006eff5e;
 }
 
 .theme-image {
     width: 80rem;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 3px 3px 25px -11px #006eff5e;
 }
 
 .disabled {
