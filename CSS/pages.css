@@ -209,14 +209,11 @@ body {
 .swiper {
     width: 80rem;
     cursor: pointer;
-    height: 95%
     border-radius: 12px;
-    box-shadow: 3px 3px 25px -11px black;
 }
 
 .theme-image {
     width: 80rem;
-    box-shadow: 3px 3px 25px -11px black;
 }
 
 .disabled {
