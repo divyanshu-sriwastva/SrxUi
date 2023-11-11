@@ -50,7 +50,7 @@ html {
 
 body {
     font-family: 'Itim';
-    background: rgba(0,35,255,0.06);
+    background-color: rgba(0,35,255,0.1);
 }
 
 /* CSS for Header */
