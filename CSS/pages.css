@@ -302,7 +302,7 @@ h1::after {
     bottom: -10px;
     width: 85%;
     content: "";
-    left: 5%;
+    left: 5.5%;
     height: 2px;
     display: block;
 }
