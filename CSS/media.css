@@ -125,7 +125,7 @@ This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io 
     }
 
     html {
-        font-size: 52%;
+        font-size: 50%;
     }
 
     .container-1 {
@@ -189,12 +189,12 @@ This file is a part of < https://github.com/divyanshu-sriwastva/SrxUi.github.io 
     }
 
     .swiper {
-        width: 45rem;
+        width: 95vw;
         margin-top: 2rem;
     }
 
     .theme-image {
-        width: 45rem;
+        width: 95vw;
     }
 
     .about-des {
