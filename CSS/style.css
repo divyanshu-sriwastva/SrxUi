@@ -116,7 +116,7 @@ h2 {
     position: relative;
     text-transform: uppercase;
 }
-h1:ntn-child(1):{
+#heading-srx{
     background: rgba(0,35,255,1.8);
     padding: 1rem;
     border-radius: 15px;
